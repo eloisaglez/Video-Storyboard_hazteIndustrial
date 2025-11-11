@@ -34,51 +34,6 @@ storyboard-hazte-industrial/
 └── README.md          # Este archivo
 ```
 
-## 🛠️ Cómo subir este proyecto a GitHub
-
-### Paso 1: Crear repositorio en GitHub
-1. Ve a [GitHub](https://github.com) e inicia sesión
-2. Haz clic en el botón **"New"** (verde) o en el **"+"** arriba a la derecha → **"New repository"**
-3. Nombra tu repositorio (ejemplo: `storyboard-hazte-industrial`)
-4. Marca la opción **"Public"** (necesario para GitHub Pages gratuito)
-5. **NO** marques "Add a README file" (ya tienes uno)
-6. Haz clic en **"Create repository"**
-
-### Paso 2: Subir los archivos
-
-#### Opción A: Desde la web de GitHub (más fácil)
-1. En tu nuevo repositorio, haz clic en **"uploading an existing file"**
-2. Arrastra los tres archivos (`index.html`, `styles.css`, `README.md`)
-3. Escribe un mensaje de commit (ejemplo: "Añadir storyboard inicial")
-4. Haz clic en **"Commit changes"**
-
-#### Opción B: Desde la terminal (si usas Git)
-```bash
-# En la carpeta donde están los archivos
-git init
-git add .
-git commit -m "Añadir storyboard inicial"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/TU-REPOSITORIO.git
-git push -u origin main
-```
-
-### Paso 3: Activar GitHub Pages
-1. En tu repositorio, ve a **"Settings"** (arriba a la derecha)
-2. En el menú lateral izquierdo, busca **"Pages"**
-3. En **"Source"**, selecciona **"Deploy from a branch"**
-4. En **"Branch"**, selecciona **"main"** y la carpeta **"/ (root)"**
-5. Haz clic en **"Save"**
-6. ¡Listo! En unos minutos tu página estará disponible en:
-   ```
-   https://TU-USUARIO.github.io/TU-REPOSITORIO/
-   ```
-
-### Paso 4: Verificar que funciona
-- Espera 2-3 minutos
-- Visita la URL que te proporcionó GitHub Pages
-- Deberías ver tu storyboard completamente funcional
-
 ## 🎓 Uso educativo
 
 Este storyboard está diseñado como ejemplo para que los estudiantes:
