@@ -12,18 +12,6 @@ Este proyecto contiene un storyboard técnico completo del vídeo "Hazte Industr
 - Notas de producción detalladas
 - Análisis narrativo y técnico
 
-## 🚀 Cómo ver el storyboard
-
-### Opción 1: Ver online (GitHub Pages)
-Una vez publicado en GitHub Pages, visita:
-```
-https://TU-USUARIO.github.io/nombre-repositorio/
-```
-
-### Opción 2: Ver localmente
-1. Descarga los archivos
-2. Abre `index.html` en tu navegador
-
 ## 📦 Estructura del proyecto
 
 ```
