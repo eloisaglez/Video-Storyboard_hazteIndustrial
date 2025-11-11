@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storyboard Técnico: "Hazte Industrial"</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="text-align: center; margin-bottom: 15px;">
+        <a href="glosario.html" style="display: inline-block; padding: 10px 20px; background-color: #333; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">📚 Ver Glosario de Términos</a>
+    </div>
+
+    <h1>STORYBOARD TÉCNICO: "Hazte Industrial"</h1>
+
+    <div class="container">
+        <!-- PLANO 1 -->
+        <div class="plano">
+            <div class="plano-header">PLANO 1: Ext. Edificio Universidad</div>
+            <div class="dibujo">
+                <svg width="100%" height="100%" viewBox="0 0 400 220">
+                    <!-- Cielo -->
+                    <rect x="0" y="0" width="400" height="80" fill="#e0f0ff"/>
+                    <!-- Suelo -->
+                    <rect x="0" y="180" width="400" height="40" fill="#d0d0d0"/>
+                    <!-- Edificio principal -->
+                    <polygon points="100,180 100,80 200,40 300,80 300,180" fill="#f5f5f5" stroke="#000" stroke-width="2"/>
+                    <!-- Techo triangular -->
+                    <polygon points="100,80 200,40 300,80" fill="#e0e0e0" stroke="#000" stroke-width="2"/>
+                    <!-- Ventanas -->
+                    <rect x="130" y="100" width="25" height="30" fill="#87ceeb" stroke="#000" stroke-width="1"/>
+                    <rect x="170" y="100" width="25" height="30" fill="#87ceeb" stroke="#000" stroke-width="1"/>
+                    <rect x="245" y="100" width="25" height="30" fill="#87ceeb" stroke="#000" stroke-width="1"/>
+                    <rect x="130" y="145" width="25" height="30" fill="#87ceeb" stroke="#000" stroke-width="1"/>
+                    <rect x="245" y="145" width="25" height="30" fill="#87ceeb" stroke="#000" stroke-width="1"/>
+                    <!-- Puerta principal -->
+                    <rect x="185" y="140" width="30" height="40" fill="#8b4513" stroke="#000" stroke-width="2"/>
+                    <!-- Escaleras -->
+                    <rect x="175" y="175" width="50" height="5" fill="#a0a0a0" stroke="#000" stroke-width="1"/>
+                    <rect x="170" y="180" width="60" height="5" fill="#a0a0a0" stroke="#000" stroke-width="1"/>
+                    <!-- Línea horizonte -->
+                    <line x1="0" y1="180" x2="400" y2="180" stroke="#666" stroke-width="1"/>
+                    <!-- Flecha de paneo -->
+                    <line x1="50" y1="30" x2="150" y2="30" stroke="#ff0000" stroke-width="2" marker-end="url(#arrowhead)"/>
+                    <text x="70" y="25" fill="#ff0000" font-size="12" font-weight="bold">PANEO →</text>
+                    <defs>
+                        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                            <polygon points="0 0, 10 3, 0 6" fill="#ff0000"/>
+                        </marker>
+                    </defs>
+                </svg>
+            </div>
+            <div class="info">
+                <p class="descripcion"><strong>Descripción:</strong> Plano establecedor que presenta el edificio de la ETSII, introduciendo el contexto universitario de forma clara y directa.</p>
+                <strong>Plano:</strong> General<br>
+                <strong>Ángulo:</strong> Normal<br>
+                <strong>Movimiento:</strong> Paneo suave izquierda → derecha<br>
+                <strong>Duración:</strong> 3 s<br>
+                <strong>Iluminación:</strong> Exterior / día<br>
+                <strong>Sonido:</strong> Música comienza (intro)<br>
+                <strong>Acción:</strong> Fachada del edificio de la universidad<br>
+                <div class="transicion">Corte directo a interior</div>
+            </div>
+        </div>
+
+        <!-- PLANO 2 -->
+        <div class="plano">
+            <div class="plano-header">PLANO 2: Int. Aula</div>
+            <div class="dibujo">
+                <svg width="100%" height="100%" viewBox="0 0 400 220">
+                    <!-- Fondo aula -->
+                    <rect x="0" y="0" width="400" height="220" fill="#fffaf0"/>
+                    <!-- Mesa izquierda -->
+                    <rect x="50" y="140" width="120" height="60" fill="#d2b48c" stroke="#000" stroke-width="2"/>
+                    <!-- Mesa derecha -->
+                    <rect x="230" y="140" width="120" height="60" fill="#d2b48c" stroke="#000" stroke-width="2"/>
+                    
+                    <!-- Estudiante 1 (izquierda) -->
+                    <!-- Cabeza -->
+                    <circle cx="110" cy="90" r="25" fill="#ffd7b5" stroke="#000" stroke-width="2"/>
+                    <!-- Pelo -->
+                    <path d="M 85 85 Q 85 65 110 65 Q 135 65 135 85" fill="#654321" stroke="#000" stroke-width="2"/>
+                    <!-- Cara simple -->
+                    <circle cx="105" cy="88" r="2" fill="#000"/>
+                    <circle cx="115" cy="88" r="2" fill="#000"/>
+                    <path d="M 105 97 Q 110 100 115 97" stroke="#000" stroke-width="1" fill="none"/>
+                    <!-- Cuerpo -->
+                    <rect x="85" y="115" width="50" height="45" fill="#4682b4" stroke="#000" stroke-width="2" rx="5"/>
+                    <!-- Brazos estudiando -->
+                    <line x1="85" y1="130" x2="65" y2="145" stroke="#4682b4" stroke-width="6"/>
+                    <line x1="65" y1="145" x2="75" y2="155" stroke="#ffd7b5" stroke-width="5"/>
+                    <line x1="135" y1="130" x2="155" y2="145" stroke="#4682b4" stroke-width="6"/>
+                    <line x1="155" y1="145" x2="145" y2="155" stroke="#ffd7b5" stroke-width="5"/>
+                    
+                    <!-- Estudiante 2 (derecha) -->
+                    <!-- Cabeza -->
+                    <circle cx="290" cy="90" r="25" fill="#ffd7b5" stroke="#000" stroke-width="2"/>
+                    <!-- Pelo -->
+                    <path d="M 265 85 Q 265 65 290 65 Q 315 65 315 85" fill="#8b4513" stroke="#000" stroke-width="2"/>
+                    <!-- Cara simple -->
+                    <circle cx="285" cy="88" r="2" fill="#000"/>
+                    <circle cx="295" cy="88" r="2" fill="#000"/>
+                    <path d="M 285 97 Q 290 100 295 97" stroke="#000" stroke-width="1" fill="none"/>
+                    <!-- Cuerpo -->
+                    <rect x="265" y="115" width="50" height="45" fill="#228b22" stroke="#000" stroke-width="2" rx="5"/>
+                    <!-- Brazos estudiando -->
+                    <line x1="265" y1="130" x2="245" y2="145" stroke="#228b22" stroke-width="6"/>
+                    <line x1="245" y1="145" x2="255" y2="155" stroke="#ffd7b5" stroke-width="5"/>
+                    <line x1="315" y1="130" x2="335" y2="145" stroke="#228b22" stroke-width="6"/>
+                    <line x1="335" y1="145" x2="325" y2="155" stroke="#ffd7b5" stroke-width="5"/>
+                    
+                    <!-- Libros/papeles en las mesas -->
+                    <rect x="80" y="150" width="30" height="20" fill="#fff" stroke="#000" stroke-width="1"/>
+                    <rect x="260" y="150" width="30" height="20" fill="#fff" stroke="#000" stroke-width="1"/>
+                    <line x1="82" y1="155" x2="108" y2="155" stroke="#000" stroke-width="0.5"/>
+                    <line x1="82" y1="160" x2="108" y2="160" stroke="#000" stroke-width="0.5"/>
+                    <line x1="262" y1="155" x2="288" y2="155" stroke="#000" stroke-width="0.5"/>
+                    <line x1="262" y1="160" x2="288" y2="160" stroke="#000" stroke-width="0.5"/>
+                </svg>
+            </div>
+            <div class="info">
+                <p class="descripcion"><strong>Descripción:</strong> Dos estudiantes concentrados en sus estudios, reflejando el ambiente académico intenso característico de la carrera de Ingeniería Industrial.</p>
+                <strong>Plano:</strong> Medio<br>
+                <strong>Ángulo:</strong> Normal<br>
+                <strong>Movimiento:</strong> Cámara fija<br>
+                <strong>Duración:</strong> 4 s<br>
+                <strong>Iluminación:</strong> Interior / artificial<br>
+                <strong>Sonido:</strong> Ambiente + voz (canción comienza)<br>
+                <strong>Acción:</strong> Estudiantes estudiando concentrados<br>
+                <div class="transicion">Continuidad (misma escena)</div>
+            </div>
+        </div>
+
+        <!-- PLANO 3 -->
+        <div class="plano">
+            <div class="plano-header">PLANO 3: Int. Aula - Puerta</div>
+            <div class="dibujo">
+                <svg width="100%" height="100%" viewBox="0 0 400 220">
+                    <!-- Fondo -->
+                    <rect x="0" y="0" width="400" height="220" fill="#fffaf0"/>
+                    
+                    <!-- Puerta/marco -->
+                    <rect x="300" y="0" width="100" height="220" fill="#8b7355" stroke="#000" stroke-width="2"/>
+                    <rect x="310" y="10" width="80" height="200" fill="#deb887" stroke="#000" stroke-width="2"/>
+                    
+                    <!-- Estudiante chico (izquierda) -->
+                    <!-- Cabeza -->
+                    <circle cx="130" cy="80" r="28" fill="#ffd7b5" stroke="#000" stroke-width="2"/>
+                    <!-- Pelo -->
+                    <path d="M 102 75 Q 102 52 130 52 Q 158 52 158 75" fill="#654321" stroke="#000" stroke-width="2"/>
+                    <!-- Cara -->
+                    <circle cx="123" cy="78" r="2" fill="#000"/>
+                    <circle cx="137" cy="78" r="2" fill="#000"/>
+                    <path d="M 123 88 Q 130 92 137 88" stroke="#000" stroke-width="1.5" fill="none"/>
+                    <!-- Cuerpo -->
+                    <rect x="102" y="108" width="56" height="80" fill="#4682b4" stroke="#000" stroke-width="2" rx="5"/>
+                    <!-- Brazo levantado saludando -->
+                    <line x1="102" y1="120" x2="70" y2="80" stroke="#4682b4" stroke-width="8"/>
+                    <line x1="70" y1="80" x2="55" y2="75" stroke="#ffd7b5" stroke-width="6"/>
+                    <ellipse cx="50" cy="70" rx="8" ry="10" fill="#ffd7b5" stroke="#000" stroke-width="1.5"/>
+                    <!-- Brazo derecho -->
+                    <line x1="158" y1="120" x2="178" y2="145" stroke="#4682b4" stroke-width="8"/>
+                    <line x1="178" y1="145" x2="175" y2="160" stroke="#ffd7b5" stroke-width="6"/>
+                    <!-- Piernas -->
+                    <line x1="115" y1="188" x2="115" y2="215" stroke="#2c3e50" stroke-width="10"/>
+                    <line x1="145" y1="188" x2="145" y2="215" stroke="#2c3e50" stroke-width="10"/>
+                    
+                    <!-- Chica (derecha) -->
+                    <!-- Cabeza -->
+                    <circle cx="240" cy="85" r="28" fill="#ffd7b5" stroke="#000" stroke-width="2"/>
+                    <!-- Pelo largo -->
+                    <path d="M 212 80 Q 212 57 240 57 Q 268 57 268 80" fill="#8b4513" stroke="#000" stroke-width="2"/>
+                    <path d="M 212 80 Q 210 120 215 130" fill="#8b4513" stroke="#000" stroke-width="2"/>
+                    <path d="M 268 80 Q 270 120 265 130" fill="#8b4513" stroke="#000" stroke-width="2"/>
+                    <!-- Cara -->
+                    <circle cx="233" cy="83" r="2" fill="#000"/>
+                    <circle cx="247" cy="83" r="2" fill="#000"/>
+                    <path d="M 233 93 Q 240 96 247 93" stroke="#000" stroke-width="1.5" fill="none"/>
+                    <!-- Cuerpo -->
+                    <rect x="212" y="113" width="56" height="80" fill="#ff69b4" stroke="#000" stroke-width="2" rx="5"/>
+                    <!-- Brazo saludando -->
+                    <line x1="268" y1="125" x2="300" y2="100" stroke="#ff69b4" stroke-width="8"/>
+                    <line x1="300" y1="100" x2="315" y2="105" stroke="#ffd7b5" stroke-width="6"/>
+                    <ellipse cx="320" cy="110" rx="8" ry="10" fill="#ffd7b5" stroke="#000" stroke-width="1.5"/>
+                    <!-- Brazo izquierdo -->
+                    <line x1="212" y1="125" x2="192" y2="150" stroke="#ff69b4" stroke-width="8"/>
+                    <line x1="192" y1="150" x2="195" y2="165" stroke="#ffd7b5" stroke-width="6"/>
+                    <!-- Piernas -->
+                    <line x1="225" y1="193" x2="225" y2="215" stroke="#2c3e50" stroke-width="10"/>
+                    <line x1="255" y1="193" x2="255" y2="215" stroke="#2c3e50" stroke-width="10"/>
+                </svg>
+            </div>
+            <div class="info">
+                <p class="descripcion"><strong>Descripción:</strong> Momento de transición donde los estudiantes finalizan su jornada de estudio. La despedida cordial entre compañeros refleja el ambiente colaborativo.</p>
+                <strong>Plano:</strong> General<br>
+                <strong>Ángulo:</strong> Picado<br>
+                <strong>Movimiento:</strong> Paneo lateral<br>
+                <strong>Duración:</strong> 3 s<br>
+                <strong>Iluminación:</strong> Interior<br>
+                <strong>Sonido:</strong> Breves diálogos + música<br>
+                <strong>Acción:</strong> Estudiantes saliendo y despidiéndose<br>
+                <div class="transicion">Continuidad (acción continúa)</div>
+            </div>
+        </div>
+
+        <!-- PLANO 4 -->
+        <div class="plano">
+            <div class="plano-header">PLANO 4: Int. Aula Vacía</div>
+            <div class="dibujo">
+                <svg width="100%" height="100%" viewBox="0 0 400 220">
+                    <!-- Fondo aula -->
+                    <rect x="0" y="0" width="400" height="220" fill="#fffaf0"/>
+                    
+                    <!-- Pizarra al frente -->
+                    <rect x="100" y="20" width="200" height="80" fill="#2d4739" stroke="#000" stroke-width="3"/>
+                    <rect x="95" y="15" width="210" height="90" fill="none" stroke="#654321" stroke-width="4"/>
+                    <!-- Texto en pizarra -->
+                    <text x="200" y="50" text-anchor="middle" fill="#fff" font-size="14" font-family="Arial">∫ f(x)dx</text>
+                    <text x="200" y="75" text-anchor="middle" fill="#fff" font-size="12" font-family="Arial">F = ma</text>
+                    
+                    <!-- Perspectiva del aula - líneas de fuga -->
+                    <line x1="0" y1="220" x2="150" y2="110" stroke="#ccc" stroke-width="2"/>
+                    <line x1="400" y1="220" x2="250" y2="110" stroke="#ccc" stroke-width="2"/>
+                    
+                    <!-- Filas de pupitres en perspectiva (vacíos) -->
+                    <!-- Fila 1 -->
+                    <rect x="80" y="120" width="60" height="30" fill="#d2b48c" stroke="#000" stroke-width="2" opacity="0.9"/>
+                    <rect x="160" y="120" width="80" height="30" fill="#d2b48c" stroke="#000" stroke-width="2" opacity="0.9"/>
+                    <rect x="260" y="120" width="60" height="30" fill="#d2b48c" stroke="#000" stroke-width="2" opacity="0.9"/>
+                    
+                    <!-- Fila 2 -->
+                    <rect x="60" y="160" width="70" height="35" fill="#d2b48c" stroke="#000" stroke-width="2" opacity="0.9"/>
+                    <rect x="150" y="160" width="100" height="35" fill="#d2b48c" stroke="#000" stroke-width="2" opacity="0.9"/>
+                    <rect x="270" y="160" width="70" height="35" fill="#d2b48c" stroke="#000" stroke-width="2" opacity="0.9"/>
+                    
+                    <!-- Fila 3 (primer plano) -->
+                    <rect x="40" y="200" width="80" height="20" fill="#d2b48c" stroke="#000" stroke-width="2"/>
+                    <rect x="140" y="200" width="120" height="20" fill="#d2b48c" stroke="#000" stroke-width="2"/>
+                    <rect x="280" y="200" width="80" height="20" fill="#d2b48c" stroke="#000" stroke-width="2"/>
+                    
+                    <!-- Un estudiante solo al fondo -->
+                    <circle cx="200" cy="145" r="12" fill="#ffd7b5" stroke="#000" stroke-width="1"/>
+                    <path d="M 188 142 Q 188 132 200 132 Q 212 132 212 142" fill="#654321" stroke="#000" stroke-width="1"/>
+                    <rect x="188" y="157" width="24" height="20" fill="#4682b4" stroke="#000" stroke-width="1"/>
+                    
+                    <!-- Flecha dolly out -->
+                    <line x1="350" y1="30" x2="380" y2="50" stroke="#ff0000" stroke-width="2" marker-end="url(#arrowhead2)"/>
+                    <text x="315" y="35" fill="#ff0000" font-size="11" font-weight="bold">DOLLY OUT</text>
+                    <defs>
+                        <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                            <polygon points="0 0, 10 3, 0 6" fill="#ff0000"/>
+                        </marker>
+                    </defs>
+                </svg>
+            </div>
+            <div class="info">
+                <p class="descripcion"><strong>Descripción:</strong> Contraste dramático que muestra el aula prácticamente vacía, con un único estudiante en la distancia. Refuerza visualmente el mensaje humorístico sobre la dificultad de la carrera.</p>
+                <strong>Plano:</strong> General<br>
+                <strong>Ángulo:</strong> Picado leve<br>
+                <strong>Movimiento:</strong> Dolly out lento<br>
+                <strong>Duración:</strong> 3 s<br>
+                <strong>Iluminación:</strong> Interior<br>
+                <strong>Sonido:</strong> Música continúa<br>
+                <strong>Acción:</strong> Aula vacía con un estudiante solo<br>
+                <div class="transicion">Cierre de escena</div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: white; padding: 20px; border: 2px solid #333; margin-top: 30px;">
+        <h2 style="margin-top: 0;">Notas de Producción:</h2>
+        <ul>
+            <li><strong>Duración total:</strong> 13 segundos</li>
+            <li><strong>Ritmo de montaje:</strong> Medio-rápido, siguiendo el ritmo musical</li>
+            <li><strong>Continuidad narrativa:</strong> Los planos 2-3 mantienen continuidad temporal. El plano 4 actúa como transición/cierre</li>
+            <li><strong>Recursos técnicos:</strong> Combinación de planos generales y medios. Movimientos de cámara (paneo, dolly) para dinamismo</li>
+            <li><strong>Composición:</strong> Uso de regla de los tercios y perspectiva en el plano 4</li>
+        </ul>
+    </div>
+
+    <div style="text-align: center; margin: 30px 0;">
+        <a href="glosario.html" style="display: inline-block; padding: 15px 30px; background-color: #333; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 16px;">📚 Consultar Glosario Completo de Términos Cinematográficos</a>
+    </div>
+
+</body>
+</html>
